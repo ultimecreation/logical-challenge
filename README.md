@@ -5,3 +5,6 @@
 
 ## Second exercice : On multiplie par sa longueur !
 002 - MultiplyByHimself -> 002Multiply.php
+
+## Troisième exercice : On ajoute des cubes !
+003 - Tableau des cubes -> 003ArrayCubes.php
