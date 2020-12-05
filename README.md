@@ -8,3 +8,6 @@
 
 ## Troisième exercice : On ajoute des cubes !
 003 - Tableau des cubes -> 003ArrayCubes.php
+
+## Quatrième exercice : La parfaite alternance !
+004 - On alterne les integer -> 004Alternate.php
