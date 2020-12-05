@@ -1,4 +1,7 @@
-# logical-exercises
+# Exercices Logiques
 
-## First exercise : On oublie les additions !
+## Premier exercice : On oublie les additions !
 001 - Logical numbers -> 001Numbers.php
+
+## Second exercice : On multiplie par sa longueur !
+002 - MultiplyByHimself -> 002Multiply.php
