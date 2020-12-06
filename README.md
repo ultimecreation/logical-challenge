@@ -4,14 +4,17 @@
 ### Premier exercice : On incrémente !
 JS001 - Incrémentation de valeurs  -> JS001Incremente.html
 
-### Deuxième exercice :
+### Deuxième exercice : Le mot le plus long !
+JS002 - Plus long mot -> JS002PlusLongMot.html
 
-### Troisième exercice :
+### Troisième exercice : La tête à l'envers !
+JS003 - Renversement de chaine -> JS003ChaineReverse.html
 
-### Quatrième exercice :
+### Quatrième exercice : Somme toutes !
+JS004 - Devinez la somme -> JS004SommeToutes.html
 
-### Cinquième exercice :
-
+### Cinquième exercice : Tablons ensemble !
+JS005 - Tableau final à exporter -> JS005ArrayFinal.html
 
 
 ## PHP
