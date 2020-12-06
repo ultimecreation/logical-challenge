@@ -11,3 +11,6 @@
 
 ## Quatrième exercice : La parfaite alternance !
 004 - On alterne les integer -> 004Alternate.php
+
+## Cinquième exercice : Des chiffres et des lettres !
+005 - On trie et on compte -> 005CounterType.php
