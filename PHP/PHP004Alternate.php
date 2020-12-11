@@ -13,3 +13,15 @@ EX 3
 isAlternate([ 2, 4, 2, 8, 7, 3, 4, 8 ]) -> false
 */
 
+$isAlternate = function($array){
+    for($i=0 ; $i<count($array); $i++){
+        if($i == 0){
+            
+        }
+        echo "<pre>".print_r($test,true)."</pre>";
+        
+    }
+    
+};
+
+$isAlternate([ 1, 4, 3, 8, 1, 2, 3, 6 ]);
