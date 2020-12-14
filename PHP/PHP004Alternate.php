@@ -16,8 +16,10 @@ isAlternate([ 2, 4, 2, 8, 7, 3, 4, 8 ]) -> false
 $isAlternate = function($array){
     for($i=0 ; $i<count($array); $i++){
         if($i == 0) continue;
-        if( ($array[$i] % 2 == 0 && $array[$i-1] % 2 == 1) || ($array[$i] % 2 == 1 && $array[$i-1] % 2 == 0)) return 'true';
-        return 'false';
+        return ($array[$i] % 2 == 0 && $array[$i-1] % 2 == 1) || ($array[$i] % 2 == 1 && $array[$i-1] % 2 == 0) 
+            ? 'true' 
+            : 'false';
+        
         // echo "<pre>".print_r($test,true)."</pre>";
     }
     
