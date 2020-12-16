@@ -13,3 +13,22 @@ EX 3
 isAlternate([ 2, 4, 2, 8, 7, 3, 4, 8 ]) -> false
 */
 
+$isAlternate = function($array){
+    for($i=0 ; $i<count($array); $i++){
+        if($i == 0){
+
+        }
+        echo "<pre>".print_r($test,true)."</pre>";
+
+        if($i == 0) continue;
+        if( ($array[$i] % 2 == 0 && $array[$i-1] % 2 == 1) || ($array[$i] % 2 == 1 && $array[$i-1] % 2 == 0)) return 'true';
+        return 'false';
+        // echo "<pre>".print_r($test,true)."</pre>";
+    }
+
+};
+
+$isAlternate([ 1, 4, 3, 8, 1, 2, 3, 6 ]);
+echo $isAlternate([ 1, 4, 3, 8, 1, 2, 3, 6 ]).'<br>';
+echo $isAlternate([ 2, 4, 3, 6, 3, 4, 2, 1 ]).'<br>';
+echo $isAlternate([ 2, 4, 2, 8, 7, 3, 4, 8 ]).'<br>'; 
