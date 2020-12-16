@@ -16,6 +16,12 @@
 
         // Sortie demandée dans le span ayant l'id "arrayFinal" :
         // (Rouge, Bleu, Vert, Mauve) => (rouge_bleu_vert_mauve) => (Rouge+Bleu+Vert+Mauve)
+        let first = array.join(' ')
+        let second = array.join('_').toLowerCase()
+        let third = array.join('+')
+        const arrayFinal =  `(${first}) => (${second}) => (${third}) `
+        
+       document.querySelector('#arrayFinal').innerHTML = arrayFinal
     </script>
 </body>
 </html>

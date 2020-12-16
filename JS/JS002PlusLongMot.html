@@ -20,8 +20,23 @@
         // OBJECTIF : Afficher le plus long mot d'une string en JS 
 
         // Liste des mots au format JS
-        var phrase = "Une phrase simple où nous allons chercher le mot le plus long !";
+        const phrase = "Une phrase simple où nous allons chercher le mot le plus long !";
+        const splitted = phrase.split(' ')
+        let low = ''
+        let high = ''
 
+        for(i=0 ; i < splitted.length ; i++){
+            if(i == 0){
+                low = splitted[i]
+                high = splitted[i]
+            }else{
+                if(splitted[i].length < low.length) low = splitted[i]
+                if(splitted[i].length > high.length) high = splitted[i]
+            }
+            
+        }
+        document.querySelector('#plusLongMot').innerHTML = high
+        console.log(high,low)
     </script>
 </body>
 

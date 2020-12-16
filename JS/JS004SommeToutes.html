@@ -13,12 +13,30 @@
     <input type="text" name="result">
 
     <script>
+        const begin = document.querySelector('input[name="begin"]')
+        const end = document.querySelector('input[name="end"]')
+        const result = document.querySelector('input[name="result"]')
+
+        result.addEventListener('click',()=>{
+            console.log(begin,end)
+
+        })
+
+        const sommeToutes = (begin,end)=>{
+            let sum = 0
+            for(i=begin ; i <= end ;i++) sum = sum +i
+
+            result.value = sum
+        }
+        sommeToutes(1, 4)
+        sommeToutes(3, 9) 
+        sommeToutes(6, 10)
         // OBJECTIF : Creer une fonction sommeToutes(begin, end) qui nous donnera un résultat
         // Pour comprendre ce que doit faire la fonction, voici 3 exemples pour deviner la logique
 
-        // EX 1 : sommeToutes(1, 4) => 10
-        // EX 2 : sommeToutes(3, 9) => 42
-        // EX 3 : sommeToutes(6, 10) => 40
+        // EX 1 :  => 10
+        // EX 2 :  => 42
+        // EX 3 : => 40
 
         // A VOUS DE JOUER !!!
 

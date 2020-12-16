@@ -7,14 +7,17 @@
 </head>
 <body>
     <h1>Chaine de caractères de base</h1>
+    <h1 id="reversed"></h1>
     <script>
         // OBJECTIF : Ecrire grâce à une fonction notre phrase contenu dans le h1 à l'envers 
         // Exemple : chaineRerverse("Bonjour les gens") -> string "sneg sel ruojnoB"
 
         function chaineReverse(){
-            
+            let h1 = document.querySelector('h1').textContent
+            document.querySelector('#reversed').innerHTML = h1.split('').reverse().join('')
+           
         }
-
+        chaineReverse()
     </script>
 </body>
 </html>
